@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #f3d34c;
+
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    background-color: white;
+    max-width: 20rem;
+    padding: 1.4rem;
+    border-radius: 1.5rem;
+    box-shadow: 10px 5px 5px black;
+
+}
+
+.content img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    margin-bottom: 1.2rem;
+}
+
+.learning-button{
+    background-color: #f3d34c;
+    width: 5rem;
+    height: 1.875rem;
+    border-radius: 0.313rem;
+    padding-top: 0.36rem;
+    text-align: center;
+    font-weight: 800;
+    font-size: 0.813rem;
+}
+
+.published-date{
+    padding-top: 0.9rem;
+    font-size: 0.8rem;
+}
+
+.heading{
+    font-size: 1.3rem;
+    padding: 0.6rem 0;
+}
+
+.testimonials{
+    font-size: 0.8rem ;
+    margin-bottom: 1.5rem;
+}
+
+.image-container{
+    display: flex;
+    gap: 1rem;
+
+}
+
+.testimonial-img{
+    max-width: 100%;
+    max-height: 2.5rem;
+    background-size: cover;
+}
+
+.name{
+    font-size: 0.8rem;
+    font-weight: 700;
+    padding-top: 0.625rem;
+}
+
+footer{
+    text-align: center;
+    text-decoration: none;
+}
